@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,12 +8,26 @@
     <link rel="stylesheet" href="style.css">
     <script type="module" src="scritpt.js"></script>
 </head>
+
 <body>
     <main>
-        <input type="text" id="input1">
-        <input type="text" id="input2">
-        <button id="check-btn">Policz</button>
-        <div id="result"></div>
+
+        <div id="calculator-container">
+            <div id="input1-container">
+                <label for="input1">Liczba ucniów z podaną cechą</label>
+                <input type="text" id="input1">
+            </div>
+            <div id="input2-container">
+                <label for="input2">liczba wszystkich ucniów w klasie</label>
+                <input type="text" id="input2">
+            </div>
+            <button id="check-btn">Policz</button>
+            <label for="answer">Wynik w Procentach</label>
+            <textarea name="answer" id="answer"></textarea>
+            <div id="result"></div>
+        </div>
+
     </main>
 </body>
+
 </html>
